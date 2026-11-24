@@ -6,7 +6,7 @@ Source for the SilicaMentis Strategy website: static HTML and assets, no build s
 - `index.html` – home page
 - `privacy.html` – privacy notice
 - `assets/` – images, logos and other site files
-- `netlify.toml` – Netlify settings (publish folder and response headers)
+- Netlify settings are in `netlify.toml` at the repo root (base directory `website`, response headers)
 
 ## How changes go live
 1. Until Netlify is linked to this repo, the site is deployed by drag-and-drop of this folder in Netlify. Always drag from this folder, so the repo matches what is live.
@@ -14,6 +14,6 @@ Source for the SilicaMentis Strategy website: static HTML and assets, no build s
 
 ## Rules
 - Nothing secret goes in this repo (no keys, passwords or tokens). The `.gitignore` blocks the common ones.
-- Pages under `/admin/` are never linked from the site and are kept out of search engines (see `netlify.toml`).
+- Pages under `/admin/` are never linked from the site and are kept out of search engines (see the root `netlify.toml`).
 
 Owner: Kieran Hanrahan, kieran@silicamentis.eu

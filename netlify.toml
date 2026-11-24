@@ -1,8 +1,10 @@
 # Netlify settings for silicamentis.eu
-# Static site: no build command; the repo root is what gets published.
+# The site lives in website/; nothing outside it is published.
+# Static site: no build command.
 
 [build]
-  publish = "."
+  base = "website"
+  publish = "."     # relative to base, so this means website/
 
 # Keep the private admin area (added later for the Instagram pipeline)
 # out of search engines and out of other sites' frames.
