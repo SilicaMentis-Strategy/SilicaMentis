@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="32" height="32">
+  <!-- Simplified mark for browser tabs (32px and below). -->
+  <defs>
+    <mask id="fav-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="120">
+      <rect width="120" height="120" fill="#fff"/>
+      <rect x="38" y="2" width="80" height="80" fill="#000"/>
+    </mask>
+  </defs>
+  <rect x="18" y="54" width="48" height="48" fill="none" stroke="#2A2D31" stroke-width="12" mask="url(#fav-cut)"/>
+  <rect x="46" y="10" width="64" height="64" fill="#C6531B"/>
+</svg>

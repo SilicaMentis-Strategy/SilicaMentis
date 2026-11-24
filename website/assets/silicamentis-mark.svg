@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="SilicaMentis Strategy">
+  <!-- For light backgrounds. Transparent: the gaps are cut out, not painted. -->
+  <defs>
+    <mask id="sm-cut-1" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="120">
+      <rect width="120" height="120" fill="#fff"/>
+      <rect x="32.5" y="32.5" width="55" height="55" fill="none" stroke="#000" stroke-width="11"/>
+      <rect x="46" y="6" width="68" height="68" fill="#000"/>
+    </mask>
+    <mask id="sm-cut-2" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="120">
+      <rect width="120" height="120" fill="#fff"/>
+      <rect x="46" y="6" width="68" height="68" fill="#000"/>
+    </mask>
+  </defs>
+  <rect x="12.5" y="52.5" width="55" height="55" fill="none" stroke="#6F757A" stroke-width="5" mask="url(#sm-cut-1)"/>
+  <rect x="32.5" y="32.5" width="55" height="55" fill="none" stroke="#2A2D31" stroke-width="5" mask="url(#sm-cut-2)"/>
+  <rect x="50" y="10" width="60" height="60" fill="#C6531B"/>
+</svg>

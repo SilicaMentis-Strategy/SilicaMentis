@@ -1,0 +1,14 @@
+# Netlify settings for silicamentis.eu
+# Static site: no build command; the repo root is what gets published.
+
+[build]
+  publish = "."
+
+# Keep the private admin area (added later for the Instagram pipeline)
+# out of search engines and out of other sites' frames.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Frame-Options = "DENY"
+    Cache-Control = "no-store"
